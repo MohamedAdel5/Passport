@@ -81,7 +81,8 @@ app.use((req, res, next) => {
 });
 
 app.get("/", (req, res) => {
-	var ip =
+	//I was just testing how to get the ip address of the current user
+// 	var ip =
 		// (req.headers["x-forwarded-for"] || "").split(",").pop().trim() ||
 		// req.connection.remoteAddress ||
 		// req.socket.remoteAddress ||
